@@ -14,7 +14,7 @@ export default function TableAddress({ data }: any) {
             </tr>
           </thead>
           <tbody>
-            {data.map((endereco, rowIndex) => (
+            {data.map((endereco: any, rowIndex: any) => (
               <tr key={rowIndex}>
                 {columns.map((column, colIndex) => (
                   <td className={`p-2 text-center capitalize`} key={colIndex}>{endereco[column]}</td>

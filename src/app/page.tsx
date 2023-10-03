@@ -19,7 +19,7 @@ export default function Home() {
     setCep(e.target.value)
   }
 
-  function handleSelectRadio({ target }) {
+  function handleSelectRadio({ target }: any) {
     setSelectForm(target.value)
   }
 
